@@ -40,7 +40,6 @@ let months = [
 let month = months[now.getMonth()];
 let day = now.getDate();
 let year = now.getFullYear();
-
 let date2 = document.querySelector("h4");
 date2.innerHTML = `${month} ${day}, ${year}`;
 
